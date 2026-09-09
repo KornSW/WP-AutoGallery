@@ -1,14 +1,23 @@
 <?php
 /**
  * Plugin Name: TK Auto Gallery
+ * Update URI: https://raw.githubusercontent.com/KornSW/WP-AutoGallery/master/doc/kornsw-autogallery.update.json
+ * Plugin URI: https://github.com/KornSW/WP-AutoGallery
  * Description: Lightweight folder-based gallery with row-first justified layout, inline lightbox and video support.
- * Version: 1.2.1
+ * Version: 1.2.3
  * Author: TK
  */
 
 if (!defined('ABSPATH')) {
     exit;
 }
+
+
+/*************** SELF-UPDATE ***************/
+define( 'KSWTKAUTOGALLER21A0_SELF_UPDATE_DIAGNOSTICS', false );
+require_once __DIR__ . '/self-update.php';
+kswtkautogaller21a0_bootstrap( __FILE__ );
+/*******************************************/
 
 final class TkAutoGalleryPlugin {
 
