@@ -3,9 +3,9 @@
  * Plugin Name: KornSW AutoGallery
  * Update URI: https://raw.githubusercontent.com/KornSW/WP-AutoGallery/master/doc/kornsw-autogallery.update.json
  * Plugin URI: https://github.com/KornSW/WP-AutoGallery
- * Description: Lightweight folder-based gallery with row-first justified layout, inline lightbox and video support.
+ * Description: Lightweight folder-based gallery with row-first justified layout, inline lightbox and video support. [tk_auto_gallery gallery="2026/foo" filter="*.jpg|*.jpeg|*.png|*.webp|*.mp4|*.webm" row_height="230" mobile_row_height="150" gap="10" thumb="1"]
  * Version: 1.2.5
- * Author: TK
+ * Author: KornSW
  */
 
 if (!defined('ABSPATH')) {
