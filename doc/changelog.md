@@ -4,6 +4,11 @@
 
 *(none)*
 
+## v 1.2.6
+released **2026-09-09**, including:
+ - meta updates
+
+
 ## v 1.2.5
 released **2026-09-09**, including:
  - rename

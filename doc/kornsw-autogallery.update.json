@@ -1,14 +1,14 @@
 {
   "name": "KornSW AutoGallery",
-  "version": "1.2.5",
-  "author": "TK",
+  "version": "1.2.6",
+  "author": "KornSW",
   "homepage": "https://github.com/KornSW/WP-AutoGallery",
-  "download_url": "https://github.com/KornSW/WP-AutoGallery/releases/download/v1.2.5/kornsw-autogallery.zip",
+  "download_url": "https://github.com/KornSW/WP-AutoGallery/releases/download/v1.2.6/kornsw-autogallery.zip",
   "requires": "",
   "requires_php": "",
   "tested": "",
   "sections": {
-    "description": "Lightweight folder-based gallery with row-first justified layout, inline lightbox and video support.",
-    "changelog": "<h4>Version 1.2.5</h4><ul><li>rename</li></ul>"
+    "description": "Lightweight folder-based gallery with row-first justified layout, inline lightbox and video support. [tk_auto_gallery gallery=\"2026/foo\" filter=\"*.jpg|*.jpeg|*.png|*.webp|*.mp4|*.webm\" row_height=\"230\" mobile_row_height=\"150\" gap=\"10\" thumb=\"1\"]",
+    "changelog": "<h4>Version 1.2.6</h4><ul><li>meta updates</li></ul>"
   }
 }
