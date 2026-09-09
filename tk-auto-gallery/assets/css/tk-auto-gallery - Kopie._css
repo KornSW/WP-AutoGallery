@@ -1,0 +1,50 @@
+.tkag-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--tkag-min-tile-width, 220px), 1fr));
+    gap: var(--tkag-gap, 10px);
+    align-items: start;
+}
+
+.tkag-tile {
+    display: block;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #111;
+    text-decoration: none;
+}
+
+.tkag-tile img,
+.tkag-thumb-video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tkag-layout-masonry .tkag-tile {
+    aspect-ratio: auto;
+}
+
+.tkag-layout-square .tkag-tile {
+    aspect-ratio: 1 / 1 !important;
+}
+
+.tkag-video-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 14px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    font-size: 22px;
+}
+
+@media (max-width: 600px) {
+    .tkag-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+}
