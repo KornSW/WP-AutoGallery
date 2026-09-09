@@ -4,7 +4,7 @@
  * Update URI: https://raw.githubusercontent.com/KornSW/WP-AutoGallery/master/doc/kornsw-autogallery.update.json
  * Plugin URI: https://github.com/KornSW/WP-AutoGallery
  * Description: Lightweight folder-based gallery with row-first justified layout, inline lightbox and video support.
- * Version: 1.2.3
+ * Version: 1.2.4
  * Author: TK
  */
 

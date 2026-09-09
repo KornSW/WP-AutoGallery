@@ -1,14 +1,14 @@
 {
   "name": "TK Auto Gallery",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "author": "TK",
   "homepage": "https://github.com/KornSW/WP-AutoGallery",
-  "download_url": "https://github.com/KornSW/WP-AutoGallery/releases/download/v1.2.3/kornsw-autogallery.zip",
+  "download_url": "https://github.com/KornSW/WP-AutoGallery/releases/download/v1.2.4/kornsw-autogallery.zip",
   "requires": "",
   "requires_php": "",
   "tested": "",
   "sections": {
     "description": "Lightweight folder-based gallery with row-first justified layout, inline lightbox and video support.",
-    "changelog": "<h4>Version 1.2.3</h4><ul><li>rename</li></ul>"
+    "changelog": "<h4>Version 1.2.4</h4><ul><li>Merge branch &#x27;master&#x27; of https://github.com/KornSW/WP-AutoGallery</li><li>deleted old</li></ul>"
   }
 }
