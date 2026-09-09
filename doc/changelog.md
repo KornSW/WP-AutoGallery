@@ -4,6 +4,11 @@
 
 *(none)*
 
+## v 1.2.5
+released **2026-09-09**, including:
+ - rename
+
+
 ## v 1.2.4
 released **2026-09-09**, including:
  - Merge branch 'master' of https://github.com/KornSW/WP-AutoGallery
